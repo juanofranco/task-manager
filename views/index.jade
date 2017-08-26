@@ -1,0 +1,29 @@
+extends ./header.jade
+block content
+  div(class="wrapper")
+    div(class="contentMaster")
+      form(method="POST" id="formUpload" action="/uploads")
+        div(class="contentForm")
+            div(class="inputFile")
+              label Image
+              input(type="file" id="fileField" name="fileField")
+              div(id="imageContent" class="fileContent")
+            div(class="inputDescription")
+              label(class="label") Description (Max 300 chars)
+              textarea(id="descriptionField" name="description" maxlength="300")
+            div(class="inputSubmit" id="inputSubmit")
+              input(type="submit" id="addButton" value="Add")
+            div(class="inputUpdate hidde" id="inputUpdate")
+              input(type="submit" id="updateButton" value="Update")
+              a(href="#" id="cancelBtn" class="cancelBtn") Cancel   
+      div(class="contentList")
+        ul(id="itemList" class="list")
+          each item in Items
+            li(id="#{item._id}")
+              article(class="itemNode")
+                img(src="/uploads/#{item.imageUrl}" style="width:34px")
+                span()= item.description
+                a(href="#" class="itemRemove") Remove
+                a(href="#" class="itemEdit") Edit
+  script(src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js")
+  script(src="js/app.js")

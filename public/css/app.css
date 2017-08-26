@@ -1,0 +1,195 @@
+body {
+  font-family: sans-serif;
+  background: #F2F4F6;
+  color: #919BA1; }
+
+.wrapper {
+  width: 100%; }
+
+.contentMaster {
+  width: 800px;
+  margin: 0 auto;
+  padding: 20px; }
+
+form {
+  padding: 10px 20px 20px 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.2);
+  height: 205px; }
+
+label {
+  display: block;
+  font-size: 12px;
+  margin-top: 10px; }
+
+.label {
+  margin-top: 10px; }
+
+ul {
+  padding: 0px; }
+
+ul li {
+  margin-left: 0px;
+  margin-top: 10px;
+  padding: 12px 20px 10px 20px;
+  background: #FFFFFF;
+  -webkit-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.1); }
+
+.inputFile input {
+  border: 1px solid #BAC0C5;
+  padding: 10px 10px 10px 44px;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  box-sizing: border-box;
+  outline: none;
+  color: #919BA1;
+  font-size: 12px; }
+
+.list {
+  list-style: none; }
+
+.inputDescription textarea {
+  border: 1px solid #BAC0C5;
+  padding: 10px;
+  display: block;
+  width: 100%;
+  margin-top: 5px;
+  box-sizing: border-box;
+  outline: none;
+  font-family: sans-serif;
+  color: #919BA1; }
+
+.inputSubmit input, .inputUpdate input {
+  margin-top: 10px;
+  padding: 10px 15px 11px !important;
+  font-size: 18px !important;
+  background-color: #57d6c7;
+  font-weight: bold;
+  text-shadow: 1px 1px #57d6c7;
+  color: #ffffff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #57d6c7;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  width: 100%;
+  box-sizing: border-box;
+  outline: none; }
+
+.inputUpdate input {
+  width: 375px; }
+
+.inputSubmit input:active, .inputUpdate input:active {
+  margin-top: 11px; }
+
+.fileContent {
+  margin-top: -38px;
+  margin-left: 5px;
+  position: relative;
+  width: 34px;
+  height: 34px;
+  float: left;
+  background: #F2F4F6; }
+
+.itemEdit {
+  padding: 5px 10px 6px !important;
+  font-size: 12px !important;
+  background-color: #57d6c7;
+  font-weight: bold;
+  text-shadow: 1px 1px #57d6c7;
+  color: #ffffff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #57d6c7;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  text-decoration: none;
+  float: right;
+  margin-top: 4px;
+  min-width: 50px;
+  text-align: center;
+  margin-right: 10px;
+  outline: none; }
+
+.hidde {
+  display: none; }
+
+.itemRemove {
+  padding: 5px 10px 6px !important;
+  font-size: 12px !important;
+  background-color: #FF3737;
+  font-weight: bold;
+  text-shadow: 1px 1px #FF3737;
+  color: #ffffff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #FF3737;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  text-decoration: none;
+  float: right;
+  margin-top: 4px;
+  min-width: 50px;
+  text-align: center;
+  outline: none; }
+
+.inputUpdate .cancelBtn {
+  margin-top: 10px;
+  padding: 10px 15px 11px !important;
+  font-size: 18px !important;
+  background-color: #FF3737;
+  font-weight: bold;
+  text-shadow: 1px 1px #FF3737;
+  color: #ffffff;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border: 1px solid #FF3737;
+  cursor: pointer;
+  box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -moz-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  -webkit-box-shadow: 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  float: right;
+  text-align: center;
+  width: 375px; }
+
+.inputUpdate .cancelBtn:active {
+  margin-top: 11px; }
+
+.itemEdit:active, .itemRemove:active {
+  margin-top: 5px; }
+
+.itemNode {
+  border-left: 3px dotted #cccccc;
+  padding-left: 20px; }
+
+.itemNode img {
+  vertical-align: top; }
+
+.itemNode span {
+  margin-left: 10px;
+  text-align: left;
+  font-size: 11px;
+  display: inline-block;
+  width: 530px;
+  height: 33px;
+  word-wrap: break-word;
+  overflow: hidden;
+  line-height: 108%; }
