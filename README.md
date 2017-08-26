@@ -1,6 +1,6 @@
-# Data Segmentation
+# Tasks manager
 
-Rendering data result in a chart
+Module abm of items
 
 ## Getting Started
 
@@ -14,24 +14,27 @@ The app runs in node.js, if you don't have installed it, please click here:
 
 ### Installing
 
-Open a console, go to the repository and install node dependencies
+Install dependencies
 
 ```
 npm install
 ```
+## Mongo DB
 
-After that, run the server
+Run mongo and create a db with 'itemsList' name and use it
 
 ```
-node server.js
+use itemsList
 ```
 
-Then, open a localhost url in a browser 
+## Server
 
-* [LocalHost:3000](http://localhost:3000/)
+Run the server
 
-### External libraries
-* [Normalize.css](https://necolas.github.io/normalize.css/)
-* [Modernizr](https://modernizr.com/)
-* [Chartjs](http://www.chartjs.org/)
-* [jQuery](http://jquery.com/)
+```
+node app.js
+```
+
+Open url and enjoy it! 
+
+* [LocalHost:8080](http://localhost:8080/)
