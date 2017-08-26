@@ -34,6 +34,13 @@ Run the server
 ```
 node app.js
 ```
+## Enhancements
+
+If you want update a enhancement commit  (I hope so :D!), you can run gulp in watching mode and edit the project. After some change code, Gulp will do the building for you!
+
+```
+gulp watch
+```
 
 Open url and enjoy it! 
 
